@@ -1,0 +1,8 @@
+{
+  "Programming": ["coding", "software", "algorithms"],
+  "AI": ["artificial intelligence", "machine learning", "intelligent systems"],
+  "Data": ["analytics", "databases", "visualization"],
+  "Business": ["management", "operations", "leadership"],
+  "Cybersecurity": ["security", "network defense", "systems protection"],
+  "Design": ["ui", "ux", "human computer interaction"]
+}

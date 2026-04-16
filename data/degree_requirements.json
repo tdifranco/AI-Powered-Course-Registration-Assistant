@@ -1,0 +1,209 @@
+{
+  "majors": {
+    "Computer Science": {
+      "catalog_source": "Clarkson Undergraduate Catalog 2025-2026",
+      "total_credits_required": 120,
+      "blocks": [
+        {
+          "type": "exact_courses",
+          "name": "Clarkson core courses",
+          "courses": [
+            "FY100",
+            "UNIV190",
+            "MA131",
+            "MA132",
+            "MA211"
+          ]
+        },
+        {
+          "type": "select_n_courses",
+          "name": "Linear algebra requirement",
+          "options": [
+            "MA339",
+            "MA239"
+          ],
+          "min_count": 1
+        },
+        {
+          "type": "select_n_courses",
+          "name": "Probability and statistics requirement",
+          "options": [
+            "STAT383",
+            "MA381"
+          ],
+          "min_count": 1
+        },
+        {
+          "type": "exact_courses",
+          "name": "Required computer science courses",
+          "courses": [
+            "CS141",
+            "CS142",
+            "CS241",
+            "CS242",
+            "CS341",
+            "CS344",
+            "CS345",
+            "CS350",
+            "CS444",
+            "CS499"
+          ]
+        },
+        {
+          "type": "flag_count",
+          "name": "Knowledge area or university courses",
+          "flag_column": "is_knowledge_area",
+          "min_count": 5
+        },
+        {
+          "type": "credit_count_from_prefixes",
+          "name": "Science requirement",
+          "prefixes": [
+            "CM",
+            "PH",
+            "BY",
+            "SC"
+          ],
+          "min_credits": 12
+        },
+        {
+          "type": "course_count_from_prefixes",
+          "name": "Advanced CS electives I",
+          "prefixes": [
+            "CS"
+          ],
+          "min_level": 300,
+          "min_count": 3,
+          "exclude_courses": [
+            "CS341",
+            "CS344",
+            "CS345",
+            "CS350",
+            "CS444",
+            "CS499"
+          ]
+        },
+        {
+          "type": "course_count_from_prefixes",
+          "name": "Advanced CS or related electives II",
+          "prefixes": [
+            "CS",
+            "MA",
+            "STAT",
+            "IS",
+            "DS",
+            "EE"
+          ],
+          "min_level": 300,
+          "min_count": 2,
+          "exclude_courses": [
+            "CS341",
+            "CS344",
+            "CS345",
+            "CS350",
+            "CS444",
+            "CS499",
+            "MA339",
+            "STAT383",
+            "MA381"
+          ]
+        }
+      ],
+      "notes": [
+        "The official catalog specifies one two-course lecture/lab sequence in chemistry or physics plus four additional science credits.",
+        "Advanced elective lists are maintained by the department, so this prototype uses prefix-based matching instead of the official approved list."
+      ]
+    },
+    "Business Administration": {
+      "catalog_source": "Clarkson Undergraduate Catalog 2025-2026",
+      "total_credits_required": 120,
+      "blocks": [
+        {
+          "type": "exact_courses",
+          "name": "Clarkson core courses",
+          "courses": [
+            "FY100",
+            "UNIV190",
+            "MA180",
+            "MA181",
+            "STAT282"
+          ]
+        },
+        {
+          "type": "credit_count_from_prefixes",
+          "name": "Science courses",
+          "prefixes": [
+            "CM",
+            "PH",
+            "BY",
+            "SC"
+          ],
+          "min_credits": 7
+        },
+        {
+          "type": "flag_count",
+          "name": "Knowledge area or university courses",
+          "flag_column": "is_knowledge_area",
+          "min_count": 5
+        },
+        {
+          "type": "exact_courses",
+          "name": "Business core",
+          "courses": [
+            "AC202",
+            "AC203",
+            "EC150",
+            "EC151",
+            "EC311",
+            "FN361",
+            "IS110",
+            "LW270",
+            "MK320",
+            "OM331",
+            "OS286",
+            "OS352",
+            "OS432",
+            "SB113"
+          ]
+        },
+        {
+          "type": "credit_count_from_prefixes",
+          "name": "Business and professional electives",
+          "prefixes": [
+            "AC",
+            "EC",
+            "FN",
+            "IS",
+            "LW",
+            "MK",
+            "OM",
+            "OS",
+            "SB"
+          ],
+          "min_level": 300,
+          "min_credits": 18,
+          "exclude_courses": [
+            "AC202",
+            "AC203",
+            "EC150",
+            "EC151",
+            "EC311",
+            "FN361",
+            "IS110",
+            "LW270",
+            "MK320",
+            "OM331",
+            "OS286",
+            "OS352",
+            "OS432",
+            "SB113"
+          ]
+        }
+      ],
+      "notes": [
+        "The catalog describes 33 credits of Clarkson Common Experience, 42 credits of foundation coursework in business, and 45 credits of electives.",
+        "This prototype tracks the core business courses directly and summarizes remaining credits toward the 120-credit requirement."
+      ]
+    }
+  }
+}

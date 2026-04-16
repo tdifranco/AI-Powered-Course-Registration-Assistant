@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Alex Chen",
+    "major": "Computer Science",
+    "completed_courses": [
+      "FY100",
+      "UNIV190",
+      "MA131",
+      "MA132",
+      "CS141",
+      "CS142",
+      "PH131",
+      "HIST205"
+    ],
+    "interests": [
+      "AI",
+      "Systems",
+      "Software Development"
+    ],
+    "target_credits": 15
+  },
+  {
+    "name": "Jordan Lee",
+    "major": "Business Administration",
+    "completed_courses": [
+      "FY100",
+      "UNIV190",
+      "MA180",
+      "MA181",
+      "STAT282",
+      "AC202",
+      "EC150",
+      "EC151",
+      "IS110",
+      "EC210"
+    ],
+    "interests": [
+      "Business",
+      "Data",
+      "Project Management"
+    ],
+    "target_credits": 15
+  },
+  {
+    "name": "Sam Rivera",
+    "major": "Computer Science",
+    "completed_courses": [
+      "FY100",
+      "UNIV190",
+      "MA131",
+      "MA132",
+      "MA211",
+      "CS141",
+      "CS142",
+      "CS242",
+      "CS241",
+      "PH131",
+      "PH132",
+      "ES110",
+      "UC300"
+    ],
+    "interests": [
+      "Cybersecurity",
+      "AI",
+      "Systems"
+    ],
+    "target_credits": 15
+  }
+]

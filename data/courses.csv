@@ -1,0 +1,56 @@
+course_code,course_name,description,credits,category,department,prerequisites,semester,difficulty,is_knowledge_area,is_university_course
+FY100,First-Year Seminar,Transition to Clarkson academic and professional life,1,First Year,University,,Fall,1,False,False
+UNIV190,The Clarkson Seminar,Discussion-based seminar focused on global and cultural perspectives,3,Common Experience,University,,Fall,2,False,False
+MA131,Calculus I,Differential calculus and applications,3,Math,Mathematics,,Fall,3,False,False
+MA132,Calculus II,Integral calculus and series,3,Math,Mathematics,MA131,Spring,3,False,False
+MA180,Introductory College Mathematics,Foundations for business mathematics,3,Math,Mathematics,,Fall,2,False,False
+MA181,Basic Calculus,Calculus concepts for business and management students,3,Math,Mathematics,MA180,Spring,2,False,False
+MA211,Discrete Mathematics and Proof,Logic sets combinatorics and proof techniques,3,Math,Mathematics,MA131,Fall,3,False,False
+MA239,Elementary Linear Algebra,Matrix methods and vector spaces,3,Math,Mathematics,MA132,Spring,3,False,False
+MA339,Applied Linear Algebra,Linear algebra with applied problem solving,3,Math,Mathematics,MA132,Spring,3,False,False
+MA381,Probability,Probability models and applications,3,Math,Mathematics,MA132,Fall,3,False,False
+STAT282,General Statistics,Statistics for business decision making,3,Data,Mathematics,MA180,Spring,2,False,False
+STAT383,Probability and Statistics,Probability inference and statistical modeling,3,Data,Mathematics,MA132,Fall,3,False,False
+PH131,Physics I,Calculus-based mechanics,4,Science,Science,,Fall,4,False,False
+PH132,Physics II,Calculus-based electricity and magnetism,4,Science,Science,PH131,Spring,4,False,False
+CM131,General Chemistry I,Foundations of chemistry with lab,4,Science,Science,,Fall,4,False,False
+CM132,General Chemistry II,Continuation of general chemistry with lab,4,Science,Science,CM131,Spring,4,False,False
+BY140,Biology I,Cellular and molecular biology with lab,4,Science,Science,,Fall,3,False,False
+EC150,Principles of Microeconomics,Microeconomic analysis and market behavior,3,Business,Business,,Fall,2,False,False
+EC151,Principles of Macroeconomics,Macroeconomic systems and policy,3,Business,Business,,Spring,2,False,False
+EC311,Introduction to Econometrics,Applied statistical methods in economics and business,3,Business,Business,STAT282,Fall,3,False,False
+FN361,Financial Management,Time value of money capital budgeting and financing decisions,3,Business,Business,AC202;EC151,Fall,3,False,False
+IS110,Intro to Business Intelligence and Data Analytics,Business data analysis and decision support,3,Data,Business,,Spring,2,False,False
+LW270,Law and Society I,Legal environment of business and institutions,3,Business,Business,,Fall,2,False,False
+MK320,Principles of Marketing,Core concepts in marketing strategy and customer value,3,Business,Business,,Spring,2,False,False
+OM331,Operations and Supply Chain Management,Operations process analysis and supply chain fundamentals,3,Business,Business,,Spring,3,False,False
+OS286,Organizational Behavior,Human behavior in organizations and teams,3,Business,Business,,Fall,2,False,False
+OS352,Strategic Human Resource Management,Managing talent and organizational capability,3,Business,Business,OS286,Spring,3,False,False
+OS432,Organizational Policy and Strategy,Capstone business strategy course,3,Business,Business,FN361;MK320;OM331;OS286,Spring,4,False,False
+SB113,Entrepreneurship and Business Innovation I,Foundations of entrepreneurship and value creation,3,Business,Business,,Fall,2,False,False
+AC202,Financial Accounting,Financial accounting concepts and reporting,3,Business,Business,,Fall,2,False,False
+AC203,Managerial Accounting,Internal accounting for decision making,3,Business,Business,AC202,Spring,2,False,False
+AC305,Cost Accounting,Cost systems and managerial cost analysis,3,Business,Business,AC203,Fall,3,False,False
+IS301,Applied Data Analytics,Applied analytics tools for business problems,3,Data,Business,IS110;STAT282,Spring,3,False,False
+OM380,Project Management,Project planning execution and risk management,3,Business,Business,,Fall,2,False,False
+CS141,Introduction to Computer Science I,Programming fundamentals using problem-solving techniques,4,Programming,Computer Science,,Fall,2,False,False
+CS142,Introduction to Computer Science II,Object-oriented programming and software design basics,3,Programming,Computer Science,CS141,Spring,2,False,False
+CS241,Computer Organization,Low-level programming and machine organization,3,Systems,Computer Science,CS142,Spring,3,False,False
+CS242,Advanced Programming Concepts in Java,Data structures objects and intermediate Java development,3,Programming,Computer Science,CS142,Spring,3,False,False
+CS341,Programming Languages,Programming language concepts and paradigms,3,Programming,Computer Science,CS242,Fall,3,False,False
+CS344,Algorithms and Data Structures,Algorithm design analysis and advanced data structures,3,Algorithms,Computer Science,CS242;MA211,Spring,4,False,False
+CS345,Automata Theory and Formal Languages,Formal models of computation and languages,3,Theory,Computer Science,CS344,Fall,4,False,False
+CS350,Software Design and Development,Team software design testing and development practices,3,Software Development,Computer Science,CS242,Spring,3,False,False
+CS444,Operating Systems,Processes memory concurrency and operating system design,3,Systems,Computer Science,CS241;CS344,Fall,4,False,False
+CS460,Database Systems,Database design SQL and data management,3,Data,Computer Science,CS242,Spring,3,False,False
+CS470,Computer Networks,Networking protocols and distributed communication,3,Systems,Computer Science,CS241,Fall,3,False,False
+CS480,Artificial Intelligence,Search reasoning and introductory machine learning,3,AI,Computer Science,CS344,Spring,3,False,False
+CS485,Cybersecurity Fundamentals,Security principles for software and systems,3,Cybersecurity,Computer Science,CS241,Fall,3,False,False
+CS499,Professional Experience,Internship research or professional experience milestone,0,Professional,Computer Science,Junior Standing,All,1,False,False
+EC210,Contemporary Economic Issues,Exploration of current global economic issues,3,Knowledge Area,University,,Fall,2,True,False
+ES110,Technology Serving Humanity,How technology affects society and public life,3,Knowledge Area,University,,Spring,2,True,False
+HIST205,Cultures and Societies,Historical and cultural analysis across societies,3,Knowledge Area,University,,Fall,2,True,False
+PSY200,Individual and Group Behavior,Human behavior in social and organizational settings,3,Knowledge Area,University,,Spring,2,True,False
+ART101,Imaginative Arts,Introduction to the arts and creative expression,3,Knowledge Area,University,,Fall,1,True,False
+STS200,Science Technology and Society,Intersections between science technology and public life,3,Knowledge Area,University,,Spring,2,True,False
+UC300,Global Challenges University Course,Multidisciplinary university course spanning two knowledge areas,3,Knowledge Area,University,,Spring,2,True,True
