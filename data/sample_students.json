@@ -1,69 +1,58 @@
 [
   {
-    "name": "Alex Chen",
+    "name": "Alex Chen - First-Year CS",
     "major": "Computer Science",
-    "completed_courses": [
-      "FY100",
-      "UNIV190",
-      "MA131",
-      "MA132",
-      "CS141",
-      "CS142",
-      "PH131",
-      "HIST205"
-    ],
-    "interests": [
-      "AI",
-      "Systems",
-      "Software Development"
-    ],
+    "completed_courses": ["CS141", "MA131", "UNIV190", "FY100"],
+    "interests": ["AI", "Programming", "Data Science"],
     "target_credits": 15
   },
   {
-    "name": "Jordan Lee",
+    "name": "Maya Patel - Sophomore CS",
+    "major": "Computer Science",
+    "completed_courses": ["CS141", "CS242", "MA131", "MA132", "STAT282", "UNIV190", "FY100"],
+    "interests": ["AI", "Software Engineering", "Programming"],
+    "target_credits": 16
+  },
+  {
+    "name": "Jordan Rivera - Junior CS Near Graduation",
+    "major": "Computer Science",
+    "completed_courses": ["CS141", "CS242", "CS340", "MA131", "MA132", "STAT282", "PH131", "PH132", "UNIV190", "FY100"],
+    "interests": ["AI", "Data Science", "Software Engineering"],
+    "target_credits": 14
+  },
+  {
+    "name": "Emily Ross - CS Student Missing Prereqs",
+    "major": "Computer Science",
+    "completed_courses": ["CS141", "MA131", "UNIV190", "FY100"],
+    "interests": ["Cybersecurity", "Software Engineering", "Programming"],
+    "target_credits": 15
+  },
+  {
+    "name": "Noah Bennett - First-Year Business",
     "major": "Business Administration",
-    "completed_courses": [
-      "FY100",
-      "UNIV190",
-      "MA180",
-      "MA181",
-      "STAT282",
-      "AC202",
-      "EC150",
-      "EC151",
-      "IS110",
-      "EC210"
-    ],
-    "interests": [
-      "Business",
-      "Data",
-      "Project Management"
-    ],
+    "completed_courses": ["EC150", "MA180", "SB113", "UNIV190", "FY100"],
+    "interests": ["Business", "Entrepreneurship", "Marketing"],
     "target_credits": 15
   },
   {
-    "name": "Sam Rivera",
-    "major": "Computer Science",
-    "completed_courses": [
-      "FY100",
-      "UNIV190",
-      "MA131",
-      "MA132",
-      "MA211",
-      "CS141",
-      "CS142",
-      "CS242",
-      "CS241",
-      "PH131",
-      "PH132",
-      "ES110",
-      "UC300"
-    ],
-    "interests": [
-      "Cybersecurity",
-      "AI",
-      "Systems"
-    ],
+    "name": "Sophia Martinez - Sophomore Business",
+    "major": "Business Administration",
+    "completed_courses": ["EC150", "EC151", "MA180", "MA181", "SB113", "AC202", "OS286", "STAT282", "UNIV190", "FY100"],
+    "interests": ["Business", "Analytics", "Project Management"],
+    "target_credits": 16
+  },
+  {
+    "name": "Liam Walker - Business Strategy Focus",
+    "major": "Business Administration",
+    "completed_courses": ["EC150", "EC151", "MA180", "MA181", "SB113", "AC202", "AC203", "OS286", "MK320", "STAT282", "UNIV190", "FY100"],
+    "interests": ["Business", "Management", "Project Management"],
     "target_credits": 15
+  },
+  {
+    "name": "Olivia Grant - Business Near Graduation",
+    "major": "Business Administration",
+    "completed_courses": ["EC150", "EC151", "MA180", "MA181", "SB113", "AC202", "AC203", "OS286", "OS352", "MK320", "OM331", "FN361", "LW270", "STAT282", "UNIV190", "FY100"],
+    "interests": ["Management", "Business", "Finance"],
+    "target_credits": 12
   }
-]
+] 
